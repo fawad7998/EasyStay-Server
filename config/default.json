@@ -1,0 +1,9 @@
+{
+  "port": "3001",
+  "envVariables": {
+    "dev": "development",
+    "prod": "production"
+  },
+  "socket": "socketio",
+  "tokenVariable": "x-auth-token"
+}

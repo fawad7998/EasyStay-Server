@@ -1,0 +1,18 @@
+{
+  "env": "NODE_ENV",
+  "port": "PORT",
+  "jwtPrivateKey": "ac0700",
+  "mongo": {
+    "development": {
+      "uri": "mongodb://localhost:27017/easystay"
+    },
+    "production": {
+      "uri": "mongodb://localhost:27017/easystay"
+    }
+  },
+
+  "log": {
+    "dataDogKey": "DATA_DOG_KEY",
+    "sentryDSN": "SENTRY_DSN"
+  }
+}
